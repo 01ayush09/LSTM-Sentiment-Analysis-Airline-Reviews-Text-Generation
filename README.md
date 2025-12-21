@@ -23,16 +23,17 @@ The project demonstrates preprocessing of text data, embedding representation, L
 
 LSTM-Sentiment-Analysis-Airline-Reviews-Text-Generation/
 ├── data/
-│ ├── airline_reviews.csv # Raw review datasets
-│ └── processed/ # Preprocessed text and tokenized data
+│   ├── airline_reviews.csv        # Raw review dataset
+│   └── processed/                 # Preprocessed text and tokenized data
 ├── lib/
-│ └── utils.py # Helper functions for preprocessing & modeling
+│   └── utils.py                   # Helper functions for preprocessing & modeling
 ├── output/
-│ ├── sentiment_results/ # Trained sentiment predictions
-│ └── text_generation_samples/ # Examples of generated sentences
-├── engine.py # Main script to run training/evaluation
-├── requirements.txt # Python dependencies
-└── README.md # This documentation
+│   ├── sentiment_results/         # Trained sentiment predictions
+│   └── text_generation_samples/   # Examples of generated sentences
+├── engine.py                      # Main script to run training and evaluation
+├── requirements.txt               # Python dependencies
+└── README.md                      # Project documentation
+
 
 Typical dependencies include:
 
