@@ -19,6 +19,8 @@ The project demonstrates preprocessing of text data, embedding representation, L
 - Model saving and evaluation.
 - Output examples stored in `output/`.
 
+<img width="1536" height="1024" alt="ChatGPT Image Dec 21, 2025, 10_27_07 AM" src="https://github.com/user-attachments/assets/69d167d4-88e1-4ce6-b880-a0722489eeeb" />
+
 ## 📁 Repository Structure
 
 LSTM-Sentiment-Analysis-Airline-Reviews-Text-Generation/
