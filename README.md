@@ -19,22 +19,74 @@ The project demonstrates preprocessing of text data, embedding representation, L
 - Model saving and evaluation.
 - Output examples stored in `output/`.
 
+## 🏗️ System Architecture
+
+The system architecture of the **LSTM-Based Sentiment Analysis and Text Generation for Airline Reviews** project follows a modular and sequential NLP pipeline. The architecture is designed to efficiently process raw textual data, extract meaningful patterns using LSTM networks, and produce both sentiment predictions and synthetic text outputs.
+
+### 1. Input Data Layer
+The system begins with an airline reviews dataset provided in CSV format. This dataset contains raw customer feedback text, which serves as the primary input for both sentiment analysis and text generation tasks.
+
+### 2. Data Preprocessing Layer
+Raw text data is passed through a preprocessing module where it undergoes:
+- Text cleaning (lowercasing, removal of special characters and noise)
+- Tokenization
+- Stop-word removal
+- Sequence padding and indexing
+
+Natural Language Processing libraries such as **NLTK** or **spaCy** are used to convert unstructured text into structured numerical representations suitable for deep learning models.
+
+### 3. Feature Representation Layer
+The preprocessed text is transformed into numerical vectors using:
+- Token indices
+- Embedding layers that capture semantic relationships between words
+
+These embeddings serve as input features for the LSTM models.
+
+### 4. LSTM Sentiment Analysis Model
+An LSTM-based neural network processes the embedded sequences to learn long-term dependencies in text.  
+This model classifies each airline review into one of the sentiment categories:
+- Positive
+- Neutral
+- Negative
+
+The output is generated using a fully connected layer with a softmax activation function.
+
+### 5. Sentiment Evaluation & Metrics
+The sentiment predictions are evaluated using performance metrics such as:
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+
+These metrics help assess the effectiveness of the sentiment classification model.
+
+### 6. LSTM Text Generation Model
+In parallel, the processed text sequences are used to train a separate LSTM model for text generation.  
+This model learns the sequential structure of airline reviews and generates new, coherent text samples by predicting the next word or character based on previous context.
+
+### 7. Output Layer
+The final outputs of the system include:
+- Sentiment classification results stored for analysis and visualization
+- Generated airline-review-style text samples
+
+Both outputs are saved for further inspection, evaluation, and reporting.
+
+### 8. Execution Flow
+The entire pipeline is orchestrated through a central execution engine that:
+- Controls preprocessing
+- Trains and evaluates models
+- Stores predictions and generated content
+
+This modular architecture ensures scalability, maintainability, and ease of future enhancements such as attention mechanisms or transformer-based models.
+
+---
+
+This architecture effectively demonstrates the application of **LSTM networks** in solving real-world NLP problems involving sentiment analysis and natural language generation.
+
+
 <img width="1536" height="1024" alt="ChatGPT Image Dec 21, 2025, 10_27_07 AM" src="https://github.com/user-attachments/assets/69d167d4-88e1-4ce6-b880-a0722489eeeb" />
 
-## 📁 Repository Structure
-
-LSTM-Sentiment-Analysis-Airline-Reviews-Text-Generation/
-├── data/
-│   ├── airline_reviews.csv        # Raw review dataset
-│   └── processed/                 # Preprocessed text and tokenized data
-├── lib/
-│   └── utils.py                   # Helper functions for preprocessing & modeling
-├── output/
-│   ├── sentiment_results/         # Trained sentiment predictions
-│   └── text_generation_samples/   # Examples of generated sentences
-├── engine.py                      # Main script to run training and evaluation
-├── requirements.txt               # Python dependencies
-└── README.md                      # Project documentation
 
 
 Typical dependencies include:
