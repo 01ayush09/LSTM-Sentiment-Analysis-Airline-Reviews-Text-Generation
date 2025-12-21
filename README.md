@@ -23,6 +23,9 @@ The project demonstrates preprocessing of text data, embedding representation, L
 
 The system architecture of the **LSTM-Based Sentiment Analysis and Text Generation for Airline Reviews** project follows a modular and sequential NLP pipeline. The architecture is designed to efficiently process raw textual data, extract meaningful patterns using LSTM networks, and produce both sentiment predictions and synthetic text outputs.
 
+<img width="1536" height="1024" alt="ChatGPT Image Dec 21, 2025, 10_27_07 AM" src="https://github.com/user-attachments/assets/69d167d4-88e1-4ce6-b880-a0722489eeeb" />
+
+
 ### 1. Input Data Layer
 The system begins with an airline reviews dataset provided in CSV format. This dataset contains raw customer feedback text, which serves as the primary input for both sentiment analysis and text generation tasks.
 
@@ -80,14 +83,7 @@ The entire pipeline is orchestrated through a central execution engine that:
 
 This modular architecture ensures scalability, maintainability, and ease of future enhancements such as attention mechanisms or transformer-based models.
 
----
-
 This architecture effectively demonstrates the application of **LSTM networks** in solving real-world NLP problems involving sentiment analysis and natural language generation.
-
-
-<img width="1536" height="1024" alt="ChatGPT Image Dec 21, 2025, 10_27_07 AM" src="https://github.com/user-attachments/assets/69d167d4-88e1-4ce6-b880-a0722489eeeb" />
-
-
 
 Typical dependencies include:
 
