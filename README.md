@@ -1,6 +1,6 @@
 # LSTM Sentiment Analysis & Text Generation for Airline Reviews
 
-## 🧠 Project Overview
+## Project Overview
 
 This repository implements a **Natural Language Processing (NLP)** pipeline using **Long Short-Term Memory (LSTM)** neural networks to perform:
 
@@ -9,7 +9,7 @@ This repository implements a **Natural Language Processing (NLP)** pipeline usin
 
 The project demonstrates preprocessing of text data, embedding representation, LSTM training, evaluation & generation of new text based on learned patterns.
 
-## 🚀 Features
+##  Features
 
 - Clean and preprocess airline review text.
 - Train LSTM models for:
@@ -19,7 +19,7 @@ The project demonstrates preprocessing of text data, embedding representation, L
 - Model saving and evaluation.
 - Output examples stored in `output/`.
 
-## 🏗️ System Architecture
+## System Architecture
 
 The system architecture of the **LSTM-Based Sentiment Analysis and Text Generation for Airline Reviews** project follows a modular and sequential NLP pipeline. The architecture is designed to efficiently process raw textual data, extract meaningful patterns using LSTM networks, and produce both sentiment predictions and synthetic text outputs.
 
@@ -97,7 +97,7 @@ NLTK / spaCy
 
 Matplotlib or Seaborn (for plots)
 
-🧪 Model Overview
+Model Overview
 Sentiment Analysis
 
 Text cleaning (lowercasing, removing special characters).
