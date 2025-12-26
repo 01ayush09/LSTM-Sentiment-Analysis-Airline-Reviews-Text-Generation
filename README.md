@@ -85,7 +85,7 @@ This modular architecture ensures scalability, maintainability, and ease of futu
 
 This architecture effectively demonstrates the application of **LSTM networks** in solving real-world NLP problems involving sentiment analysis and natural language generation.
 
-Typical dependencies include:
+## Typical dependencies include:
 
 Python 3.x
 
@@ -97,7 +97,7 @@ NLTK / spaCy
 
 Matplotlib or Seaborn (for plots)
 
-Model Overview
+## Model Overview
 Sentiment Analysis
 
 Text cleaning (lowercasing, removing special characters).
@@ -117,7 +117,7 @@ Generate new airline-review style sentences using trained LSTM.
 Both tasks leverage the ability of LSTMs to remember long-term dependencies in sequences of text — ideal for sentiment classification and meaningful sequence generation in natural language tasks. 
 GitHub
 
-Results & Examples
+## Results & Examples
 
 Check the output/ folder for:
 
@@ -125,7 +125,7 @@ Classification accuracy and F1 scores.
 
 Sample generated text reflecting patterns learned from airline reviews.
 
-Contributing
+## Contributing
 
 Contributions are welcome! Feel free to:
 
