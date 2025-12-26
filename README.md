@@ -117,7 +117,7 @@ Generate new airline-review style sentences using trained LSTM.
 Both tasks leverage the ability of LSTMs to remember long-term dependencies in sequences of text — ideal for sentiment classification and meaningful sequence generation in natural language tasks. 
 GitHub
 
-📈 Results & Examples
+Results & Examples
 
 Check the output/ folder for:
 
@@ -125,7 +125,7 @@ Classification accuracy and F1 scores.
 
 Sample generated text reflecting patterns learned from airline reviews.
 
-🤝 Contributing
+Contributing
 
 Contributions are welcome! Feel free to:
 
