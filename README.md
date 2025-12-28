@@ -125,12 +125,4 @@ Classification accuracy and F1 scores.
 
 Sample generated text reflecting patterns learned from airline reviews.
 
-## Contributing
 
-Contributions are welcome! Feel free to:
-
-Add enhancements to preprocessing.
-
-Improve model architectures (e.g., Bidirectional LSTM, Attention).
-
-Visualize additional metrics.
